@@ -1,0 +1,44 @@
+{
+  "name": "md-splitter",
+  "description": "split markdown file with \"---\"",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": {
+    "name": "hrfmmymt",
+    "email": "hrfmmymt@gmail.com"
+  },
+  "keywords": [
+    "split",
+    "markdown",
+    "md",
+    "plaintext"
+  ],
+  "main": "src/splitter.js",
+  "bin": {
+    "md-splitter": "src/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prettier": "prettier --write '**/*.js'"
+  },
+  "dependencies": {
+    "concat-stream": "^1.6.2",
+    "exists-sync": "0.1.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "nlcst-to-string": "^2.0.2",
+    "remark": "^9.0.0",
+    "string.prototype.repeat": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "prettier": "^1.12.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}
