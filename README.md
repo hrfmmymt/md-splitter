@@ -1,5 +1,5 @@
-# md-splitter
-Split markdown to multiple markdown file with `---`
+# md-splitter [![Build Status](https://travis-ci.org/hrfmmymt/md-splitter.svg?branch=master)](https://travis-ci.org/hrfmmymt/md-splitter)
+split markdown to multiple markdown file with `---`
 
 ## install
 ```
