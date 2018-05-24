@@ -16,7 +16,6 @@ input.pipe(
     const astNodeList = splitContent(buf.toString('utf8'))
     // -p --prefix output origin file name prefix
     const prefix = argv.prefix || argv.p
-    const fileName = file.match(/(.*)(?:\.([^.]+$))/)[1]
     // -o --output output directory path
     const outputDir = argv.output || argv.o
     // --summary summary path

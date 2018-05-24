@@ -23,9 +23,9 @@ function splitContent(content) {
 /**
  *
  * @param {Array} contentNodeList mdast node list
+ * @param {string} prefix? ouput file prefix
  * @param {string} outputDir output directory path
  * @param {string} summaryPath? SUMMARY.md path
- * @param {string} prefix? ouput file prefix
  */
 function writeSplitContents(contentNodeList, prefix, outputDir, summaryPath) {
   let summary = []
